@@ -37,7 +37,7 @@ body {
 .input, .button {
   color: hsla(240, 80%, 16%, 1);
   border-radius: 8px;
-  padding: 12px 16px;
+  padding: 14px 16px;
   transform: translateY(0px);
   transition: .1s linear transform;
   font-weight: bold;
@@ -109,7 +109,7 @@ body {
 }
 .navbar-link:hover { text-decoration: underline; }
 .navbar-link::before {
-  content: var(--navbarLinkIcon);
+  content: var(--navbarLinkIcon); /* imagenes en /css/../images/... */
   filter: grayscale(100);
   position: absolute;
   top: -4px;
@@ -117,6 +117,8 @@ body {
 }
 
 /* Hero */
+.hero-description { line-height: 22px; }
+.hero-description a { color: #7e7ef1; font-weight: bold; }
 
 /* Private */
 .form-container {
