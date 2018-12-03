@@ -133,6 +133,9 @@ body {
 
 .loginForm > * { margin: 4px 16px; }
 
+.form-radioContainer { margin: 16px; }
+.form-radioContainer label { padding: 20px 20px 20px 0; }
+
 /* Public */
 
 /* Footer */

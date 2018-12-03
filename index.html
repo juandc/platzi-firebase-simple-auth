@@ -53,19 +53,30 @@
         <div id="loginFormUI" class="form-container">
           <p>Por favor inicia sesión para mostrar tu información 🖖...</p>
 
-          <form class="loginForm">
+          <form class="loginForm" name="loginForm">
             <input
               class="input"
               type="email"
+              name="email"
               placeholder="Correo Electronico"
               required
             />
             <input
               class="input"
               type="password"
+              name="password"
               placeholder="Contraseña"
               required
             />
+
+            <div class="form-radioContainer">
+              <input type="radio" name="isLoginOrSignup" id="radioIsLogin" value="isLogin" checked />
+              <label for="radioIsLogin">Login</label>
+
+              <input type="radio" name="isLoginOrSignup" id="radioIsSignup" value="isSignup" />
+              <label for="radioIsSignup">SignUp</label>
+            </div>
+
             <button id="btnLogin" class="button">Iniciar sesión</button>
           </form>
         </div>
@@ -139,5 +150,9 @@
       </ul>
     </div>
   </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
