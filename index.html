@@ -47,13 +47,30 @@
       <article class="privateInfo">
         <h2 class="privateInfo-title">Información Privada (y delicada) 🤐</h2>
         
-        <div id="loginSection">
+        <div id="loginFormUI" class="form-container">
           <p>Por favor inicia sesión para mostrar tu información 🖖...</p>
-          <button class="button">Iniciar sesión</button>
+
+          <form class="loginForm">
+            <input
+              class="input"
+              type="email"
+              placeholder="Correo Electronico"
+              required
+            />
+            <input
+              class="input"
+              type="password"
+              placeholder="Contraseña"
+              required
+            />
+            <button id="btnLogin" class="button">Iniciar sesión</button>
+          </form>
         </div>
 
         <div id="hiddenPrivateInfo">
-          <p>Esto es información confidencial ㊙</p>
+          <p>Esto SI es información confidencial ㊙</p>
+
+          <button id="btnLogout" class="button">Logout</button>
         </div>
       </article>
       
