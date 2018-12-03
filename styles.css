@@ -30,16 +30,23 @@ body {
   align-items: center;
   justify-content: center;
 
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 16px;
   min-height: 64px;
 }
 
-@media screen and (orientation: portrait) {
-  .navbar--sticky { position: sticky; top: 0; }
+@media (orientation: portrait) {
+  .navbar--sticky { position: sticky; }
 }
 
-.navbar-list {
-  
+@media (min-width: 618px) {
+  .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
 }
 
 .navbar-item { line-height: 32px; }
