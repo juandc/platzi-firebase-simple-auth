@@ -5,52 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Autenticación con Firebase en 5 minutos</title>
-  <style>
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    nav {
-      position: relative;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 60px;
-    }
-
-    nav ul {
-      margin: 0;
-      padding: 0;
-    }
-
-    header, section, footer {
-      padding-top: 16px;
-      padding-bottom: 16px;
-    }
-
-    article, footer {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-  </style>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <nav class="navbar navbar--fixed">
+  <nav class="navbar navbar--sticky">
     <ul class="navbar-list">
       <li class="navbar-item">
         <a
           class="navbar-link"
+          style="--navbarLinkIcon: url(./images/platzi_favicon.png);"
           href="https://platzi.com/clases/firebase-web/"
         >
           Curso de Firebase para Web
         </a>
       </li>
-      <li>
+      <li class="navbar-item">
         <a
           class="navbar-link"
+          style="--navbarLinkIcon: url(./images/github_favicon.png);"
           href="https://github.com/juandc/platzi-firebase-simple-auth"
         >
           Repositorio en Github
