@@ -1,4 +1,6 @@
 // Initial config
+// This is not "real security", these API Keys 
+// can just authenticate users, anything else :D
 const firebaseConfig = {
   apiKey: "AIzaSyA4zatcgkphW7EE3S6K2JN8CtjM1vAwQIk",
   authDomain: "platzi-firebase-simple-auth.firebaseapp.com",
@@ -41,6 +43,7 @@ function handleFormSubmit(event) {
 
   return createUser({ email, password });
 }
+
 
 // Application Utils
 function showPrivateInfo(user) {
