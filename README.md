@@ -1,8 +1,9 @@
-
 # Autenticación con Firebase en 5 minutos
 Gracias a Firebase podemos almacenar y administrar el acceso de usuarios no registrados a nuestra aplicación. Y lo mejor de todo es que Firebase no nos cobra un peso por almacenar y tratar todas estas cuentas para facilitar un montón nuestro trabajo.
 
 A continuación, vamos a añadir métodos de registro, login y logout con email y password. No te preocupes si tu negocio o página web son un poco más complicadas que esta aplicación, los pasos que debes seguir son masomenos los mismos y si quieres profundizar muchísimo más para aprender a utilizar los TODOS los servicios de Firebase como un profesional, puedes tomar el [Curso de Firebase para Web](https://platzi.com/cursos/firebase-web/) :ok_hand::tada:.
+
+Demo: [juandc.co/platzi-firebase-auth](http://juandc.co/platzi-firebase-simple-auth/).
 
 ## Creación del proyecto
 Vamos a comenzar creando un proyecto en Firebase, lo primero que debes hacer es entrar a https://console.firebase.google.com y crear un nuevo proyecto:
@@ -180,11 +181,11 @@ function showLoginForm() {
 
 Ahora si, nuestra aplicación muestra y oculta la información de los usuarios cuando cambia su estado de autenticación. Podemos configurar los estilos CSS y añadir todas las interacciones que necesiten nuestras aplicaciones (como autenticar usuarios con redes sociales, por ejemplo), solo hace falta tu imaginación y un poco de investigación para añadir el resto de código que nos ocurra.
 
-En mi caso, este fue el resultado de mi aplicación (puedes ver el demo a continuación:  [juandc.co/platzi-firebase-auth](http://juandc.co/platzi-firebase-simple-auth/)):
+En mi caso, este fue el resultado de mi aplicación (puedes ver el demo a continuación: [juandc.co/platzi-firebase-auth](http://juandc.co/platzi-firebase-simple-auth/)):
 
 ![](https://github.com/juandc/platzi-firebase-simple-auth/blob/master/.GITHUB/AHHHH-85f4c3e2-71c7-4390-805e-32338ec9786d.jpg?raw=true)
 
-![Missing image]()
+![Missing image](https://github.com/juandc/platzi-firebase-simple-auth/blob/master/.GITHUB/Screenshot_20190204_153643.jpg)
 
 ## Conclusión
-Firebase tiene muchos otros servicios muy interesantes y puedes aprender un poco sobre ellos en el siguiente artículo de nuestro querido profe @jjgomez: [Firebase, una plataforma usada por millones de aplicaciones](https://platzi.com/blog/firebase-una-plataforma-usada-por-millones-de-aplicaciones/). De nuevo, te invito a tomar el [Curso de Firebase para Web](https://platzi.com/cursos/firebase-web/), para crear proyectos y apicaciones increíbles a una velocidad casi inmejorable, **¡#NuncaParesDeAprender!**
+Firebase tiene muchos otros servicios muy interesantes y puedes aprender un poco sobre ellos en el siguiente artículo de nuestro querido profe [@jggomez](https://github.com/jggomez): [Firebase, una plataforma usada por millones de aplicaciones](https://platzi.com/blog/firebase-una-plataforma-usada-por-millones-de-aplicaciones/). De nuevo, te invito a tomar el [Curso de Firebase para Web](https://platzi.com/cursos/firebase-web/), para crear proyectos y apicaciones increíbles a una velocidad casi inmejorable, **¡#NuncaParesDeAprender!** :nerd_face::green_heart:
