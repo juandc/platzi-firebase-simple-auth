@@ -1,3 +1,4 @@
+
 # Autenticación con Firebase en 5 minutos
 Gracias a Firebase podemos almacenar y administrar el acceso de usuarios no registrados a nuestra aplicación. Y lo mejor de todo es que Firebase no nos cobra un peso por almacenar y tratar todas estas cuentas para facilitar un montón nuestro trabajo.
 
@@ -6,17 +7,17 @@ A continuación, vamos a añadir métodos de registro, login y logout con email 
 ## Creación del proyecto
 Vamos a comenzar creando un proyecto en Firebase, lo primero que debes hacer es entrar a https://console.firebase.google.com y crear un nuevo proyecto:
 
-![](https://github.com/juandc/platzi-firebase-simple-auth/tree/master/.GITHUB/AHHHH-68ea9619-ce1f-4216-9fed-1a80a2ee2229.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-68ea9619-ce1f-4216-9fed-1a80a2ee2229.jpg)
 
 Con el proyecto creado, podemos entrar a la sección de autenticación y a la configuración de inicio de sesión:
 
-![](https://github.com/juandc/platzi-firebase-simple-auth/tree/master/.GITHUB/AHHHH-4ef8e4e9-d6b5-4f85-9f4e-2c72f365794b.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-4ef8e4e9-d6b5-4f85-9f4e-2c72f365794b.jpg)
 
 En esta sección podemos habilitar o deshabilitar los métodos de inicio de sesión, podemos utilizar correo y contraseña, redes sociales, mensajes de texto al teléfono, link de autenticación por correo electrónico, entre otras. ¡Incluso podemos combinar varios servicios y utilizarlos en nuestras aplicaciones!.
 
 Por ahora (y para no alargar el tutorial), solo vamos a habilitar el registro de usuarios con correo y contraseña, después de esto solo nos queda copiar la configuración web de firebase y pegarla en nuestro archivo HTML:
 
-![](https://github.com/juandc/platzi-firebase-simple-auth/tree/master/.GITHUB/AHHHH-a71b3fd7-715b-4ff9-8edc-30dcb36a9754.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-a71b3fd7-715b-4ff9-8edc-30dcb36a9754.jpg)
 
 ## Setup, configuración inicial
 Comenzamos nuestro proyecto en un archivo HTML con un formulario de registro, una sección para la información “privada” de nuestros usuarios (que por ahora solo dice “Cargando…”) y los scripts de firebase y la configuración que copiamos anteriormente desde la consola.
@@ -126,13 +127,13 @@ function signoutUser() {
 
 
 
-![](https://github.com/juandc/platzi-firebase-simple-auth/tree/master/.GITHUB/AHHHH-d1500475-aeac-4307-804f-406aec3f7dea.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-d1500475-aeac-4307-804f-406aec3f7dea.jpg)
 
 Además, podemos visualizar la lista de usuarios creados en nuestra aplicación desde la consola de Firebase:
 
 
 
-![](https://github.com/juandc/platzi-firebase-simple-auth/tree/master/.GITHUB/AHHHH-f649a6fa-d3d2-4920-9f52-66b8086f2489.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-f649a6fa-d3d2-4920-9f52-66b8086f2489.jpg)
 
 Pero, a pesar de que autenticamos a los usuarios, nuestra aplicación sigue mostrando el formulario de registro. Necesitamos modificar la UI de nuestro archivo HTML cada vez que registramos a los usuarios.
 
@@ -181,11 +182,9 @@ Ahora si, nuestra aplicación muestra y oculta la información de los usuarios c
 
 En mi caso, este fue el resultado de mi aplicación (puedes ver el demo a continuación:  [juandc.co/platzi-firebase-auth](http://juandc.co/platzi-firebase-simple-auth/)):
 
+![](https://github.com/juandc/platzi-firebase-simple-auth/blob/master/.GITHUB/AHHHH-85f4c3e2-71c7-4390-805e-32338ec9786d.jpg?raw=true)
 
-
-![](https://github.com/juandc/platzi-firebase-simple-auth/tree/master/.GITHUB/AHHHH-85f4c3e2-71c7-4390-805e-32338ec9786d.jpg)
-
-
+![Missing image]()
 
 ## Conclusión
 Firebase tiene muchos otros servicios muy interesantes y puedes aprender un poco sobre ellos en el siguiente artículo de nuestro querido profe @jjgomez: [Firebase, una plataforma usada por millones de aplicaciones](https://platzi.com/blog/firebase-una-plataforma-usada-por-millones-de-aplicaciones/). De nuevo, te invito a tomar el [Curso de Firebase para Web](https://platzi.com/cursos/firebase-web/), para crear proyectos y apicaciones increíbles a una velocidad casi inmejorable, **¡#NuncaParesDeAprender!**
