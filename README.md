@@ -3,9 +3,13 @@ Gracias a Firebase podemos almacenar y administrar el acceso de usuarios no regi
 
 A continuación, vamos a añadir métodos de registro, login y logout con email y password. No te preocupes si tu negocio o página web son un poco más complicadas que esta aplicación, los pasos que debes seguir son masomenos los mismos y si quieres profundizar muchísimo más para aprender a utilizar los TODOS los servicios de Firebase como un profesional, puedes tomar el [Curso de Firebase para Web](https://platzi.com/cursos/firebase-web/) :ok_hand::tada:.
 
+
+Tutorial: [Autenticación con Firebase en 5 minutos - Platzi Blog](https://platzi.com/blog/autenticacion-con-firebase-en-5-minutos/)
+
 Demo: [juandc.co/platzi-firebase-auth](http://juandc.co/platzi-firebase-simple-auth/).
 
 ## Creación del proyecto
+
 Vamos a comenzar creando un proyecto en Firebase, lo primero que debes hacer es entrar a https://console.firebase.google.com y crear un nuevo proyecto:
 
 ![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-68ea9619-ce1f-4216-9fed-1a80a2ee2229.jpg)
