@@ -12,11 +12,11 @@ No te preocupes si tu negocio o página web son un poco más complicados que est
 
 Comenzamos creando un nuevo proyecto en la [Consola de Firebase](https://console.firebase.google.com):
 
-![](https://static.platzi.com/media/user_upload/AHHHH-68ea9619-ce1f-4216-9fed-1a80a2ee2229.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-68ea9619-ce1f-4216-9fed-1a80a2ee2229.jpg)
 
 Con el proyecto creado podemos entrar a la sección de autenticación y ubicar la configuración de inicio de sesión:
 
-![](https://static.platzi.com/media/user_upload/AHHHH-4ef8e4e9-d6b5-4f85-9f4e-2c72f365794b.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-4ef8e4e9-d6b5-4f85-9f4e-2c72f365794b.jpg)
 
 Esta sección nos permite habilitar o deshabilitar diferentes alternativas para que nuestros usuarios se registren a la aplicación. Podemos usar correo y contraseña, redes sociales como Twitter y Facebook, con mensajes de texto al teléfono, links de autenticación por correo electrónico, entre otras.
 
@@ -24,7 +24,7 @@ Incluso podemos configurar nuestra aplicación para soportar múltiples métodos
 
 Después de esto solo nos queda copiar la configuración web de firebase para pegarla más adelante en nuestro archivo HTML:
 
-![](https://static.platzi.com/media/user_upload/AHHHH-a71b3fd7-715b-4ff9-8edc-30dcb36a9754.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-a71b3fd7-715b-4ff9-8edc-30dcb36a9754.jpg)
 
 ## Setup: Configuración inicial
 
@@ -158,11 +158,11 @@ function signoutUser() {
 
 ¡Listo! Ya podemos probar nuestra aplicación. Cuando creamos un usuario de prueba, la consola del navegador nos muestra la respuesta que esperamos, nos está indicando que el usuario fue creado sin problemas:
 
-![](https://static.platzi.com/media/user_upload/AHHHH-d1500475-aeac-4307-804f-406aec3f7dea.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-d1500475-aeac-4307-804f-406aec3f7dea.jpg)
 
 Además, podemos visualizar la lista de usuarios creados en nuestra aplicación desde la consola de Firebase:
 
-![](https://static.platzi.com/media/user_upload/AHHHH-f649a6fa-d3d2-4920-9f52-66b8086f2489.jpg)
+![](https://raw.githubusercontent.com/juandc/platzi-firebase-simple-auth/master/.GITHUB/AHHHH-f649a6fa-d3d2-4920-9f52-66b8086f2489.jpg)
 
 ## Interacción desde Javascript - JS POWER!
 
@@ -218,8 +218,7 @@ Ahora si, nuestra aplicación muestra y oculta la información de los usuarios c
 
 En mi caso, este fue el resultado y puedes ver el demo a continuación: [juandc.co/platzi-firebase-auth](http://juandc.co/platzi-firebase-simple-auth/):
 
-![](https://static.platzi.com/media/user_upload/AHHHH-85f4c3e2-71c7-4390-805e-32338ec9786d.jpg)
-
+![](https://github.com/juandc/platzi-firebase-simple-auth/blob/master/.GITHUB/AHHHH-85f4c3e2-71c7-4390-805e-32338ec9786d.jpg?raw=true)
 
 ## Conclusión
 
